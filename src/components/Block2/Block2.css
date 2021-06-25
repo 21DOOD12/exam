@@ -1,0 +1,70 @@
+.block2 {
+  width: 650px;
+  height: 308px;
+  margin-left: 65px;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.container__block2 {
+  padding: 30px 10px;
+}
+
+.block__text {
+  display: flex;
+}
+
+.block2__title {
+  max-width: 352px;
+  margin-left: 20px;
+}
+
+.block2__text {
+  font-family: "Metr Bd";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  display: flex;
+}
+
+.block2__details {
+  max-width: 482px;
+  padding: 30px 0;
+}
+
+.block2__details-text {
+  font-family: "Metr Rg";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(55, 71, 79, 0.721569);
+}
+
+.btn__text {
+  display: flex;
+}
+
+.btn__title {
+  font-family: "Metr Bd";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #717cff;
+}
+
+.btn__icon {
+  margin-left: 15px;
+}
+
+.clock {
+  margin-left: 170px;
+}
+
+.btn__clock {
+  float: left;
+}
+
+.btn__clock-text {
+  float: right;
+  margin-left: 10px;
+}

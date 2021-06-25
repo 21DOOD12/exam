@@ -28,7 +28,7 @@ function Block1() {
           </div>
         </div>
         <div className="block__btn">
-          <div className="btn__text">
+          <div className="btn__text1">
             <div className="btn__title">Learn More</div>
             <div className="btn__icon">
               <img src={arrow} alt="" />

@@ -1,5 +1,6 @@
 import "./App.css";
 import Block1 from "./components/Block1/Block1";
+import Block2 from "./components/Block2/Block2";
 
 function App() {
   return (
@@ -13,12 +14,14 @@ function App() {
             <p className="header__paragraph">
               Sunt autem nusquam hoc epicurus in gravissimo bello
               animadversionis metu degendae praesidia firmissima. Torquatos
-              nostros? quos tu paulo ante cum teneam sententiam.
-              vult.
+              nostros? quos tu paulo ante cum teneam sententiam. vult.
             </p>
           </div>
         </div>
-        <Block1/>
+        <div className="container__block">
+          <Block1 />
+          <Block2 />
+        </div>
       </div>
     </div>
   );
