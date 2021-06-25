@@ -13,17 +13,28 @@
 .wrapper {
   max-width: 1440px;
   margin-left: 160px;
-  display: flex;
 }
 
 .container {
   max-width: 1127px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
 }
 
 .container__block {
   display: flex;
+  padding-top: 100px;
+  margin: 0 auto;
+  justify-content: center;
 }
-
+@media (max-width: 1200px) {
+  .container__block{
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
 .header {
   text-align: center;
   height: 160px;
