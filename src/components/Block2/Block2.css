@@ -1,7 +1,7 @@
 .block2 {
-  width: 650px;
+  max-width: 550px;
   height: 308px;
-  margin-left: 65px;
+  /* margin-left: 65px; */
   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
 }

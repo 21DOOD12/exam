@@ -12,7 +12,8 @@
 
 .wrapper {
   max-width: 1440px;
-  margin-left: 160px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .container {
@@ -25,7 +26,6 @@
 
 .container__block {
   display: flex;
-  padding-top: 100px;
   margin: 0 auto;
   justify-content: center;
 }
@@ -36,10 +36,8 @@
   }
 }
 .header {
+  width: 100%;
   text-align: center;
-  height: 160px;
-  align-items: center;
-  margin-left: 160px;
 }
 
 .header__title {
@@ -57,7 +55,6 @@
 }
 
 .header__paragraph {
-  max-width: 950px;
   font-family: "Metr Rg";
   font-style: normal;
   font-weight: 500;
